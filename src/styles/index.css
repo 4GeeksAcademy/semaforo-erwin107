@@ -6,6 +6,51 @@
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
     
-    import 'relative/path/to/stylesheet.scss';
+    import 'relative/path/to/stylesheet.scss' commit 
+    
 
 */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+
+.traffic-light {
+  background-color: black;
+  padding: 20px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: 0.4;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+.glow {
+  opacity: 2;
+  box-shadow: 0 0 25px 5px rgba(250,250,250,0.6);
+}
+.buttons {
+  margin-top: 40px;
+}
